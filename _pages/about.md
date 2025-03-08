@@ -13,8 +13,6 @@ My research focuses on natural language processing and large language models. Sp
 
 ## Publications
 
-## Publications
-
 ### [ICLR 2025 Oral] FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference
 
 **Xunhao Lai**, Jianqiao Lu, Yao Luo, Yiyuan Ma, Xun Zhou
@@ -22,7 +20,7 @@ My research focuses on natural language processing and large language models. Sp
 [![arxiv](https://img.shields.io/badge/arXiv-2502.20766-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2502.20766)
 [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/bytedance/FlexPrefill)
 
-<div style="margin-bottom: 20px;">
+<div style="margin-bottom: 20px; overflow: hidden;">
 <img src="/images/about_flexprefill.jpg" alt="FlexPrefill" style="float: left; width: 33%; margin-right: 10px;">
 <p>FlexPrefill is a flexible sparse pre-filling mechanism for LLMs that dynamically adjusts attention patterns in real-time, improving speed and accuracy in long-sequence inference.</p>
 </div>
@@ -34,7 +32,7 @@ Xi Chen, Kaituo Feng, Changsheng Li, **Xunhao Lai**, Xiangyu Yue, Ye Yuan, Guore
 [![arxiv](https://img.shields.io/badge/arXiv-2410.01623-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2410.01623)
 [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/xichen-fy/Fira)
 
-<div style="margin-bottom: 20px;">
+<div style="margin-bottom: 20px; overflow: hidden;">
 <img src="/images/about_fira.jpg" alt="Fira" style="float: left; width: 33%; margin-right: 10px;">
 <p>Fira is a new training framework for LLMs that achieves full-rank training performance while maintaining low-rank memory efficiency in both pre-training and fine-tuning.</p>
 </div>
