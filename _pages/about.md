@@ -13,35 +13,31 @@ My research focuses on natural language processing and large language models. Sp
 
 ## Publications
 
-<div>
-<img src="/images/about_flexprefill.jpg" alt="FlexPrefill" style="float: left; width: 100px; margin-right: 10px;">
-**[ICLR 2025 Oral] FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference**
+## Publications
 
-**Xunhao Lai**, Jianqiao Lu, Yao Luo, Yiyuan Ma, Xun Zhou
-
-This paper introduces FlexPrefill, a flexible sparse pre-filling mechanism for large language models that dynamically adjusts attention patterns in real-time, improving speed and accuracy in long-sequence inference compared to prior sparse attention methods.
-
-[arxiv](https://arxiv.org/abs/2502.20766) / [github](https://github.com/bytedance/FlexPrefill)
+<div style="margin-bottom: 20px;">
+<img src="/images/about_flexprefill.jpg" alt="FlexPrefill" style="float: left; width: 150px; margin-right: 10px;">
+<h4>[ICLR 2025 Oral] FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference</h4>
+<p><strong>Xunhao Lai</strong>, Jianqiao Lu, Yao Luo, Yiyuan Ma, Xun Zhou</p>
+<p>FlexPrefill is a flexible sparse pre-filling mechanism for LLMs that dynamically adjusts attention patterns in real-time, improving speed and accuracy in long-sequence inference.</p>
+<p>[arxiv](https://arxiv.org/abs/2502.20766) / [github](https://github.com/bytedance/FlexPrefill)</p>
 </div>
 
-<div>
-<img src="/images/about_fira.jpg" alt="Fira" style="float: left; width: 100px; margin-right: 10px;">
-**Fira: Can We Achieve Full-rank Training of LLMs Under Low-rank Constraint?**
-
-Xi Chen, Kaituo Feng, Changsheng Li, **Xunhao Lai**, Xiangyu Yue, Ye Yuan, Guoren Wang
-
-This paper proposes Fira, a new training framework for Large Language Models that achieves full-rank training performance while maintaining low-rank memory efficiency, outperforming existing approaches in pre-training and fine-tuning experiments.
-
-[arxiv](https://arxiv.org/abs/2410.01623) / [github](https://github.com/xichen-fy/Fira)
+<div style="margin-bottom: 20px;">
+<img src="/images/about_fira.jpg" alt="Fira" style="float: left; width: 150px; margin-right: 10px;">
+<h4>Fira: Can We Achieve Full-rank Training of LLMs Under Low-rank Constraint?</h4>
+<p>Xi Chen, Kaituo Feng, Changsheng Li, <strong>Xunhao Lai</strong>, Xiangyu Yue, Ye Yuan, Guoren Wang</p>
+<p>Fira is a new training framework for LLMs that achieves full-rank training performance while maintaining low-rank memory efficiency in both pre-training and fine-tuning.</p>
+<p>[arxiv](https://arxiv.org/abs/2410.01623) / [github](https://github.com/xichen-fy/Fira)</p>
 </div>
 
 ## Open-Source Projects
 
-#### [native-sparse-attention-triton](https://github.com/XunhaoLai/native-sparse-attention-triton)
+### [native-sparse-attention-triton](https://github.com/XunhaoLai/native-sparse-attention-triton)
 
 Implemented the Deepseek Native Sparse Attention kernel using Triton, providing flexible and efficient sparse attention training code.
 
-#### [FlexPrefill](https://github.com/bytedance/FlexPrefill)
+### [FlexPrefill](https://github.com/bytedance/FlexPrefill)
 
 Implemented the FlexPrefill long-text inference acceleration algorithm, offering a flexible and efficient acceleration solution for long-text models.
 
