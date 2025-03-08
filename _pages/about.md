@@ -39,13 +39,17 @@ Xi Chen, Kaituo Feng, Changsheng Li, **Xunhao Lai**, Xiangyu Yue, Ye Yuan, Guore
 
 ## Open-Source Projects
 
-### [native-sparse-attention-triton](https://github.com/XunhaoLai/native-sparse-attention-triton)
+### native-sparse-attention-triton
+
+[![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/XunhaoLai/native-sparse-attention-triton)
 
 Implemented the Deepseek Native Sparse Attention kernel using Triton, providing flexible and efficient sparse attention training code.
 
-### [FlexPrefill](https://github.com/bytedance/FlexPrefill)
+### FlexPrefill
 
-Implemented the FlexPrefill long-text inference acceleration algorithm, offering a flexible and efficient acceleration solution for long-text models.
+[![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/bytedance/FlexPrefill)
+
+Implemented the FlexPrefill long-text inference acceleration algorithm, offering a flexible and efficient acceleration solution for long context LLMs.
 
 ## Contact
 
