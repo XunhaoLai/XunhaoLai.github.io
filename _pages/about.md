@@ -15,20 +15,28 @@ My research focuses on natural language processing and large language models. Sp
 
 ## Publications
 
-<div style="margin-bottom: 20px;">
-<img src="/images/about_flexprefill.jpg" alt="FlexPrefill" style="float: left; width: 150px; margin-right: 10px;">
-<h4>[ICLR 2025 Oral] FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference</h4>
-<p><strong>Xunhao Lai</strong>, Jianqiao Lu, Yao Luo, Yiyuan Ma, Xun Zhou</p>
-<p>FlexPrefill is a flexible sparse pre-filling mechanism for LLMs that dynamically adjusts attention patterns in real-time, improving speed and accuracy in long-sequence inference.</p>
-<p>[arxiv](https://arxiv.org/abs/2502.20766) / [github](https://github.com/bytedance/FlexPrefill)</p>
-</div>
+### [ICLR 2025 Oral] FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference
+
+**Xunhao Lai**, Jianqiao Lu, Yao Luo, Yiyuan Ma, Xun Zhou
+
+[![arxiv](https://img.shields.io/badge/arXiv-2502.20766-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2502.20766)
+[![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/bytedance/FlexPrefill)
 
 <div style="margin-bottom: 20px;">
-<img src="/images/about_fira.jpg" alt="Fira" style="float: left; width: 150px; margin-right: 10px;">
-<h4>Fira: Can We Achieve Full-rank Training of LLMs Under Low-rank Constraint?</h4>
-<p>Xi Chen, Kaituo Feng, Changsheng Li, <strong>Xunhao Lai</strong>, Xiangyu Yue, Ye Yuan, Guoren Wang</p>
+<img src="/images/about_flexprefill.jpg" alt="FlexPrefill" style="float: left; width: 33%; margin-right: 10px;">
+<p>FlexPrefill is a flexible sparse pre-filling mechanism for LLMs that dynamically adjusts attention patterns in real-time, improving speed and accuracy in long-sequence inference.</p>
+</div>
+
+### Fira: Can We Achieve Full-rank Training of LLMs Under Low-rank Constraint?
+
+Xi Chen, Kaituo Feng, Changsheng Li, **Xunhao Lai**, Xiangyu Yue, Ye Yuan, Guoren Wang
+
+[![arxiv](https://img.shields.io/badge/arXiv-2410.01623-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2410.01623)
+[![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/xichen-fy/Fira)
+
+<div style="margin-bottom: 20px;">
+<img src="/images/about_fira.jpg" alt="Fira" style="float: left; width: 33%; margin-right: 10px;">
 <p>Fira is a new training framework for LLMs that achieves full-rank training performance while maintaining low-rank memory efficiency in both pre-training and fine-tuning.</p>
-<p>[arxiv](https://arxiv.org/abs/2410.01623) / [github](https://github.com/xichen-fy/Fira)</p>
 </div>
 
 ## Open-Source Projects
