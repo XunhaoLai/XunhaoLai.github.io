@@ -5,13 +5,34 @@ category: conferences
 permalink: /publication/2025-02-28-flexprefill
 excerpt: 'This paper introduces FlexPrefill, a flexible sparse pre-filling mechanism for large language models that dynamically adjusts attention patterns in real-time, improving speed and accuracy in long-sequence inference compared to prior sparse attention methods.'
 date: 2025-02-28
-venue: 'ICLR (Oral)'
+venue: 'ICLR'
 paperurl: 'https://arxiv.org/abs/2502.20766'
 citation: 
 ---
+
+**🎉 FlexPrefill has been accepted as an Oral Presentation at ICLR 2025！**
+
+## Abstract
 
 <figure>
   <img src="/images/flexprefill.jpg">
 </figure>
 
 Large language models (LLMs) encounter computational challenges during long-sequence inference, especially in the attention pre-filling phase, where the complexity grows quadratically with the prompt length. Previous efforts to mitigate these challenges have relied on fixed sparse attention patterns or identifying sparse attention patterns based on limited cases. However, these methods lacked the flexibility to efficiently adapt to varying input demands. In this paper, we introduce FlexPrefill, a Flexible sparse Pre-filling mechanism that dynamically adjusts sparse attention patterns and computational budget in real-time to meet the specific requirements of each input and attention head. The flexibility of our method is demonstrated through two key innovations: 1) Query-Aware Sparse Pattern Determination: By measuring Jensen-Shannon divergence, this component adaptively switches between query-specific diverse attention patterns and predefined attention patterns. 2) Cumulative-Attention Based Index Selection: This component dynamically selects query-key indexes to be computed based on different attention patterns, ensuring the sum of attention scores meets a predefined threshold. FlexPrefill adaptively optimizes the sparse pattern and sparse ratio of each attention head based on the prompt, enhancing efficiency in long-sequence inference tasks. Experimental results show significant improvements in both speed and accuracy over prior methods, providing a more flexible and efficient solution for LLM inference.
+
+## Code
+
+<https://github.com/bytedance/FlexPrefill>
+
+## Cite
+
+```bibtex
+@inproceedings{
+lai2025flexprefill,
+title={FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference},
+author={Xunhao Lai and Jianqiao Lu and Yao Luo and Yiyuan Ma and Xun Zhou},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=OfjIlbelrT}
+}
+```
