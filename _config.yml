@@ -81,10 +81,11 @@ publication_category:
   #   title: 'Books'
   # manuscripts:
   #   title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers' 
   preprint:
     title: 'Preprint'
-  conferences:
-    title: 'Conference Papers'
+  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -119,7 +120,9 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-
+atom_feed:
+  hide                   : true     # change to true to hide the RSS feed in the footer
+  path                   : # blank (default) uses feed.xml
 
 
 # SEO Related
