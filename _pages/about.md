@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi👋! My name is Xunhao Lai (赖勋豪). I am a Master’s student at the [School of Intelligence Science and Technology](https://sai.pku.edu.cn/znxyenglish/) at [Peking University](https://english.pku.edu.cn), supervised by [Professor Tong Lin](https://www.cis.pku.edu.cn/szdw/zzjs/lt.htm). Before that, I was an undergraduate student at [Yuan Pei College, Peking University](https://yuanpei.pku.edu.cn/en/).
+Hi👋! My name is Xunhao Lai (赖勋豪). I am a Master’s student at the [School of Intelligence Science and Technology](https://sai.pku.edu.cn/znxyenglish/) at [Peking University](https://english.pku.edu.cn). Before that, I was an undergraduate student at [Yuan Pei College, Peking University](https://yuanpei.pku.edu.cn/en/).
 
 My research focuses on natural language processing and large language models. Specifically, I concentrate on long context models, exploring innovative and efficient attention mechanisms, as well as optimizing the efficiency of model training and inference.
 
